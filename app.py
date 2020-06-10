@@ -7,4 +7,4 @@ api=Api(app)
 
 api.add_resource(Emp,'/emp')
 
-app.run(port="8055",debug=True)
+app.run(host='0.0.0.0',port=80)
