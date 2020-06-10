@@ -1,4 +1,4 @@
-flask
-flask_restful
+Flask
+Flask-RESTful
 pymysql
 uwsgi
