@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from flask_restful import Api
 from resources.emp import Emp
@@ -9,4 +10,4 @@ api=Api(app)
 
 api.add_resource(Emp,'/emp')
 
-app.run()
+app.run(port=os.getenv('PORT'))
