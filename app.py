@@ -12,4 +12,5 @@ app=Flask(__name__)
 def index():
     return 'Hello heroku'
 
-app.run()
+if __name__ == "__main__":
+    app.run()
